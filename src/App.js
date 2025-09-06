@@ -11,7 +11,7 @@ import Project from './components/pages/Project'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/projeto-costs">
       <Navbar />
       <Container customClass="min-height">
         <Routes>
